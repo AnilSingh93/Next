@@ -1,0 +1,55 @@
+.container
+{
+    padding: 0 50px;
+    width: 100%;
+}
+.img_container
+{
+    width: 100%;
+    position: relative;
+}
+.img_container span
+{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+}
+.img_container span img
+{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+}
+.img_container .banner_btn,
+.img_container .banner_text
+{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    padding: 40px;
+    background: #fff;
+    max-width: 656px;
+    transform: translateY(-50%);
+    border-radius: 12px;
+}
+.img_container .banner_btn{
+        bottom: 30px;
+        padding: 16px 65px;
+        top: auto;
+        border-radius: 50px;
+        display: inline-block;
+}
+.img_container .banner_text h1
+{
+    margin: 0;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.img_container .banner_text p
+{
+    font-size: 20px;
+    padding-right: 80px;    
+}
+
